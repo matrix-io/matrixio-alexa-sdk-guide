@@ -90,4 +90,3 @@ Let's run the Sample App:
 ```
 sudo bash startsample.sh
 ```
-You see the following output:
