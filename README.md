@@ -55,7 +55,7 @@ Wait a bit and try to reconnect again.
 
 ### 2. Register a Product in Amazon Developer 
 
-You'll need to register a device and create a security profile at  Amazon developer website. If you already have a registered product that you can use for testing, feel free to skip ahead. If not, follow step-by-step instructions here.
+You'll need to register a device and create a security profile at  Amazon developer website. If you already have a registered product that you can use for testing, feel free to skip ahead. If not, follow step-by-step instructions [here](https://github.com/alexa/alexa-avs-sample-app/wiki/Create-Security-Profile).
 
 #### IMPORTANT: 
 
@@ -71,7 +71,7 @@ wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/master/tools/Ras
 wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/master/tools/RaspberryPi/config.txt
 ```
 
-Open the file in a editor and use the `Client ID`, `Product ID` and `Client Secret` from the registration steps to fill the file config.txt. Check here If you need help editing the file.
+Open the file in a editor and use the `Client ID`, `Product ID` and `Client Secret` from the registration steps to fill the file config.txt. Check [here](https://www.raspberrypi.org/magpi/edit-text/) If you need help editing the file.
 
 Run the setup script with your configuration as an argument:
 ```
