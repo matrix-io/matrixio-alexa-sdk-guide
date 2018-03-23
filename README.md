@@ -16,7 +16,7 @@ Before get started, let's review what you'll need.
 
 ### Let's get started
 
-Once you have the Raspberry Pi with the SD Card inserted, the MATRIX board connected to it, power up the Raspberry Pi and open a terminal either in the Raspbian Desktop or just by ssh into it ( if you are you are using the Raspbian Lite version, in this case see guide on how to ssh here).
+Once you have the Raspberry Pi with the SD Card inserted, the MATRIX board connected to it, power up the Raspberry Pi and open a terminal either in the Raspbian Desktop or just by ssh into it ( if you are you are using the Raspbian Lite version, in this case see guide on how to ssh [here](https://www.raspberrypi.org/documentation/remote-access/ssh/) ).
 
 ### 1. Installing MATRIX software
 
