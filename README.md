@@ -81,12 +81,12 @@ This installation can take some time,  about an hour, so go find something usefu
 
 After the setup script has finished running, you'll need to generate an authorization token. Run this command, and open your browser and navigate to `http://localhost:3000`. Log in with your Amazon credentials and follow the instructions provided:
 ```
-sudo bash startauth.sh
+bash startauth.sh
 ```
 
 ### 4. Run Alexa!
 
 Let's run the Sample App:
 ```
-sudo bash startsample.sh
+bash startsample.sh
 ```
