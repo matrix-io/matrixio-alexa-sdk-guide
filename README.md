@@ -75,7 +75,7 @@ Open the file in a editor and use the `Client ID`, `Product ID` and `Client Secr
 
 Run the setup script with your configuration as an argument:
 ```
-sudo bash setup.sh config.txt
+bash setup.sh config.txt
 ```
 This installation can take some time,  about an hour, so go find something useful to do while waiting :)
 
