@@ -14,6 +14,8 @@ Before get started, let's review what you'll need.
 * Internet connection (Ethernet or WiFi)
 (Optional) WiFi Wireless Adapter for Pi 2. Nyyote: Pi 3 has built-in WiFi.
 
+First, this guide can take around an hour to install all packages and build the Alexa SDK. We have made an image with all packages installed and part of the SDK already built that takes that time to just few minutes. We recommned following the full guide that will make you see how everything is installed and build but if you are really in a hurry, the version of this guide using an pre-built image is [here](https://github.com/matrix-io/matrixio-alexa-sdk-guide/blob/master/matrix-alexa-guide-using-image.md).
+
 ### Let's get started
 
 Once you have the Raspberry Pi with the SD Card inserted, the MATRIX board connected to it, power up the Raspberry Pi and open a terminal either in the Raspbian Desktop or just by ssh into it ( if you are you are using the Raspbian Lite version, in this case see guide on how to ssh [here](https://www.raspberrypi.org/documentation/remote-access/ssh/) ).
@@ -71,7 +73,7 @@ wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/master/tools/Ras
 wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/master/tools/RaspberryPi/config.txt
 ```
 
-Open the file in a editor and use the `Client ID`, `Product ID` and `Client Secret` from the registration steps to fill the file config.txt. Check [here](https://www.raspberrypi.org/magpi/edit-text/) If you need help editing the file.
+Open the file in a editor and use the `Client ID`, `Product ID` and `Client Secret` from the registration steps to fill the file `config.txt`. Check [here](https://www.raspberrypi.org/magpi/edit-text/) If you need help editing the file.
 
 Run the setup script with your configuration as an argument:
 ```
@@ -90,3 +92,5 @@ Let's run the Sample App:
 ```
 bash ./startsample.sh
 ```
+
+The output should be similar to [example-output.txt](https://github.com/matrix-io/matrixio-alexa-sdk-guide/blob/master/example-output.txt).

@@ -1,0 +1,475 @@
+pi@alexa-rpi:~ $ bash ./startsample.sh 
+2018-04-05 14:24:48.521 [  1] I sdkVersion: 1.5.0
+Running app with log level: DEBUG9
+2018-04-05 14:24:48.534 [  1] 0 ConfigurationNode:initializeSuccess:configuration=
+2018-04-05 14:24:48.546 [  1] 9 MediaPlayer:createCalled
+2018-04-05 14:24:48.613 [  1] 9 MediaPlayer:noOutputConversion
+2018-04-05 14:24:48.616 [  1] 9 MediaPlayer:createCalled
+2018-04-05 14:24:48.617 [  1] 9 MediaPlayer:noOutputConversion
+2018-04-05 14:24:48.620 [  1] 9 MediaPlayer:createCalled
+2018-04-05 14:24:48.621 [  1] 9 MediaPlayer:noOutputConversion
+2018-04-05 14:24:48.623 [  1] 9 MediaPlayer:createCalled
+2018-04-05 14:24:48.624 [  1] 9 MediaPlayer:noOutputConversion
+2018-04-05 14:24:48.642 [  1] 9 MediaPlayer:setObserverCalled
+2018-04-05 14:24:48.642 [  2] 0 MediaPlayer:handleSetObserverCalled
+2018-04-05 14:24:48.643 [  1] 9 SpeechSynthesizer:addObserver:observer=0x1eca3bc
+2018-04-05 14:24:48.644 [  1] 9 PlaybackRouter:create::called
+2018-04-05 14:24:48.645 [  1] 9 MediaPlayer:setObserverCalled
+2018-04-05 14:24:48.645 [  2] 0 MediaPlayer:handleSetObserverCalled
+2018-04-05 14:24:48.646 [  1] 9 MediaPlayer:setObserverCalled
+2018-04-05 14:24:48.646 [  2] 0 MediaPlayer:handleSetObserverCalled
+2018-04-05 14:24:48.650 [  1] 9 AlertScheduler:setTimerForNextAlertLocked
+2018-04-05 14:24:48.650 [  1] 9 AlertScheduler:executeScheduleNextAlertForRendering::no work to do.
+2018-04-05 14:24:48.652 [  1] 5 NotificationsRenderer:create
+2018-04-05 14:24:48.652 [  3] 1 AlertsCapabilityAgent:executeOnConnectionStatusChanged:status=DISCONNECTED,reason=ACL_CLIENT_REQUEST
+2018-04-05 14:24:48.652 [  1] 9 MediaPlayer:setObserverCalled
+2018-04-05 14:24:48.652 [  2] 0 MediaPlayer:handleSetObserverCalled
+2018-04-05 14:24:48.653 [  1] 5 NotificationsCapabilityAgent:init
+2018-04-05 14:24:48.654 [  1] 5 NotificationsRenderer:addObserver
+2018-04-05 14:24:48.656 [  4] 5 NotificationsCapabilityAgent:executeInit
+2018-04-05 14:24:48.657 [  4] 0 NotificationsCapabilityAgent:notifyObservers:indicatorState=0
+2018-04-05 14:24:48.658 [  4] 5 NotificationsCapabilityAgent:executeProvideState:sendToken=false,stateRequestToken=0
+2018-04-05 14:24:48.659 [  4] 0 ContextManager:updateStateLocked:action=updatedState,state={"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false},namespace=Notifications,name=IndicatorState
+2018-04-05 14:24:48.662 [  1] 9 MediaPlayer:getSpeakerTypeCalled
+2018-04-05 14:24:48.662 [  1] 9 MediaPlayer:getSpeakerTypeCalled
+2018-04-05 14:24:48.662 [  1] 9 MediaPlayer:getSpeakerTypeCalled
+2018-04-05 14:24:48.662 [  1] 9 MediaPlayer:getSpeakerTypeCalled
+2018-04-05 14:24:48.662 [  1] 0 SpeakerManager:mapCreated:numAvsSynced=3,numLocal=1
+2018-04-05 14:24:48.663 [  1] 9 MediaPlayer:getSpeakerSettingsCalled
+2018-04-05 14:24:48.663 [  2] 9 MediaPlayer:handleGetSpeakerSettingsCalled
+2018-04-05 14:24:48.663 [  1] 9 MediaPlayer:getSpeakerSettingsCalled
+2018-04-05 14:24:48.663 [  2] 9 MediaPlayer:handleGetSpeakerSettingsCalled
+2018-04-05 14:24:48.664 [  1] 9 MediaPlayer:getSpeakerSettingsCalled
+2018-04-05 14:24:48.664 [  2] 9 MediaPlayer:handleGetSpeakerSettingsCalled
+2018-04-05 14:24:48.664 [  1] 9 SpeakerManager:validateSpeakerSettingsConsistencyResult:consistent=true
+2018-04-05 14:24:48.664 [  1] 9 SpeakerManager:validateSpeakerSettings:volume=100,mute=false
+2018-04-05 14:24:48.664 [  1] 9 SpeakerManager:updateContextManagerCalled:speakerType=AVS_SYNCED
+2018-04-05 14:24:48.665 [  1] 0 ExternalMediaPlayer:createAdapters
+2018-04-05 14:24:48.667 [  1] 1 AudioPlayer:addObserver
+2018-04-05 14:24:48.668 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=SpeechSynthesizer,name=Speak,handler=0x1ed0ac8,policy=BLOCKING
+2018-04-05 14:24:48.669 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=AudioPlayer,name=ClearQueue,handler=0x1ed1918,policy=NON_BLOCKING
+2018-04-05 14:24:48.669 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=AudioPlayer,name=Stop,handler=0x1ed1918,policy=NON_BLOCKING
+2018-04-05 14:24:48.669 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=AudioPlayer,name=Play,handler=0x1ed1918,policy=NON_BLOCKING
+2018-04-05 14:24:48.669 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.SeekController,name=AdjustSeekPosition,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaylistController,name=DisableRepeat,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaylistController,name=DisableShuffle,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaybackController,name=FastForward,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.FavoritesController,name=Unfavorite,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaybackController,name=StartOver,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaybackController,name=Previous,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaylistController,name=EnableRepeat,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaybackController,name=Rewind,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaybackController,name=Next,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaybackController,name=Pause,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaylistController,name=EnableShuffle,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.670 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.PlaybackController,name=Play,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.FavoritesController,name=Favorite,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alexa.SeekController,name=SetSeekPosition,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=ExternalMediaPlayer,name=Login,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=ExternalMediaPlayer,name=Logout,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=ExternalMediaPlayer,name=Play,handler=0x1edf8a8,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=SpeechRecognizer,name=ExpectSpeech,handler=0x1ed0150,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=SpeechRecognizer,name=StopCapture,handler=0x1ed0150,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alerts,name=DeleteAlert,handler=0x1ed2698,policy=NON_BLOCKING
+2018-04-05 14:24:48.671 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Alerts,name=SetAlert,handler=0x1ed2698,policy=NON_BLOCKING
+2018-04-05 14:24:48.672 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=System,name=SetEndpoint,handler=0x1ee0698,policy=NON_BLOCKING
+2018-04-05 14:24:48.672 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=System,name=ResetUserInactivity,handler=0x1ecff0c,policy=NON_BLOCKING
+2018-04-05 14:24:48.672 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Speaker,name=AdjustVolume,handler=0x1ede8d8,policy=NON_BLOCKING
+2018-04-05 14:24:48.672 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Speaker,name=SetMute,handler=0x1ede8d8,policy=NON_BLOCKING
+2018-04-05 14:24:48.672 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Speaker,name=SetVolume,handler=0x1ede8d8,policy=NON_BLOCKING
+2018-04-05 14:24:48.672 [  1] 9 TemplateRuntime:getConfiguration
+2018-04-05 14:24:48.673 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=TemplateRuntime,name=RenderPlayerInfo,handler=0x1edfe58,policy=HANDLE_IMMEDIATELY
+2018-04-05 14:24:48.673 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=TemplateRuntime,name=RenderTemplate,handler=0x1edfe58,policy=HANDLE_IMMEDIATELY
+2018-04-05 14:24:48.673 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Notifications,name=ClearIndicator,handler=0x1ed63a4,policy=HANDLE_IMMEDIATELY
+2018-04-05 14:24:48.673 [  1] 9 DirectiveRouter:addDirectiveHandlers:action=added,namespace=Notifications,name=SetIndicator,handler=0x1ed63a4,policy=HANDLE_IMMEDIATELY
+2018-04-05 14:24:48.967 [  5] 0 HttpPost:doPostSucceeded:code=200
+2018-04-05 14:24:48.968 [  5] 0 AuthDelegate:handleLwaResponseSucceeded:refreshToken=
+2018-04-05 14:24:48.968 [  5] 0 AuthDelegate:onAuthStateChangeCalled:state=1,error=0
+2018-04-05 14:24:48.969 [  1] 0 MessageRouter:connectionStatusChanged:reason=ACL_CLIENT_REQUEST,newStatus=PENDING
+2018-04-05 14:24:48.971 [  1] 9 HTTP2Transport:setupDownchannelStream:url=https\://avs-alexa-na.amazon.com/v20160207/directives
+2018-04-05 14:24:48.972 [  1] 0 HTTP2StreamPool:getStream:streamId=1,numAcquiredStreams=1
+2018-04-05 14:24:48.974 [  6] 9 PostConnectSynchronize:Entering postConnectLoop thread
+2018-04-05 14:24:48.975 [  3] 1 AlertsCapabilityAgent:executeOnConnectionStatusChanged:status=PENDING,reason=ACL_CLIENT_REQUEST
+#############################
+#       Connecting...       #
+#############################
+
+2018-04-05 14:24:48.975 [  7] 0 ExternalMediaPlayer:executeProvideState:sendToken=true,stateRequestToken=1
+2018-04-05 14:24:48.976 [  8] 0 NotificationsCapabilityAgent:provideState:stateRequestToken=1
+2018-04-05 14:24:48.976 [  4] 5 NotificationsCapabilityAgent:executeProvideState:sendToken=true,stateRequestToken=1
+2018-04-05 14:24:48.976 [  7] 0 ContextManager:updateStateLocked:action=updatedState,state={"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]},namespace=Alexa.PlaybackStateReporter,name=playbackState
+2018-04-05 14:24:48.977 [  8] 9 SpeechSynthesizer:provideState:token=1
+2018-04-05 14:24:48.977 [  4] 0 ContextManager:updateStateLocked:action=updatedState,state={"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false},namespace=Notifications,name=IndicatorState
+2018-04-05 14:24:48.977 [  7] 0 ExternalMediaPlayer:executeProvideState:sendToken=true,stateRequestToken=1
+2018-04-05 14:24:48.977 [  7] 0 ContextManager:updateStateLocked:action=updatedState,state={"playerInFocus"\:""\,"players"\:[]},namespace=ExternalMediaPlayer,name=ExternalMediaPlayerState
+2018-04-05 14:24:48.977 [  9] 0 SpeechSynthesizer:executeProvideState:stateRequestToken=1
+2018-04-05 14:24:48.977 [  8] 0 AudioPlayer:provideState:stateRequestToken=1
+2018-04-05 14:24:48.978 [  a] 0 AudioPlayer:executeProvideState:sendToken=true,stateRequestToken=1
+2018-04-05 14:24:48.978 [  b] 0 ContextManager:updateStateLocked:action=updatedState,state={"wakeword" \: ""},namespace=SpeechRecognizer,name=RecognizerState
+2018-04-05 14:24:48.978 [  9] 0 ContextManager:updateStateLocked:action=updatedState,state={"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"},namespace=SpeechSynthesizer,name=SpeechState
+2018-04-05 14:24:48.979 [  a] 0 ContextManager:updateStateLocked:action=updatedState,state={"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"},namespace=AudioPlayer,name=PlaybackState
+2018-04-05 14:24:48.980 [  8] 0 ContextManager:buildContextSuccessful:context={"context"\:[{"header"\:{"namespace"\:"Alexa.PlaybackStateReporter"\,"name"\:"playbackState"}\,"payload"\:{"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]}}\,{"header"\:{"namespace"\:"Speaker"\,"name"\:"VolumeState"}\,"payload"\:{"volume"\:100\,"muted"\:false}}\,{"header"\:{"namespace"\:"ExternalMediaPlayer"\,"name"\:"ExternalMediaPlayerState"}\,"payload"\:{"playerInFocus"\:""\,"players"\:[]}}\,{"header"\:{"namespace"\:"Notifications"\,"name"\:"IndicatorState"}\,"payload"\:{"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false}}\,{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"}}\,{"header"\:{"namespace"\:"AudioPlayer"\,"name"\:"PlaybackState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"}}\,{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"RecognizerState"}\,"payload"\:{"wakeword"\:""}}\,{"header"\:{"namespace"\:"Alerts"\,"name"\:"AlertsState"}\,"payload"\:{"allAlerts"\:[]\,"activeAlerts"\:[]}}]}
+2018-04-05 14:24:48.982 [  8] 0 EventBuilder:buildJsonEventString:messageId=750dfd89-8570-4633-b5e0-aa70b6f8b506,namespace=System,name=SynchronizeState
+2018-04-05 14:24:48.983 [  8] 0 PostConnectSynchronize:onContextAvailable : Send PostConnectMessage to transport
+2018-04-05 14:24:48.984 [  8] 9 HTTP2Transport:enqueueRequest:jsonContent={"context"\:[{"header"\:{"namespace"\:"Alexa.PlaybackStateReporter"\,"name"\:"playbackState"}\,"payload"\:{"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]}}\,{"header"\:{"namespace"\:"Speaker"\,"name"\:"VolumeState"}\,"payload"\:{"volume"\:100\,"muted"\:false}}\,{"header"\:{"namespace"\:"ExternalMediaPlayer"\,"name"\:"ExternalMediaPlayerState"}\,"payload"\:{"playerInFocus"\:""\,"players"\:[]}}\,{"header"\:{"namespace"\:"Notifications"\,"name"\:"IndicatorState"}\,"payload"\:{"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false}}\,{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"}}\,{"header"\:{"namespace"\:"AudioPlayer"\,"name"\:"PlaybackState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"}}\,{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"RecognizerState"}\,"payload"\:{"wakeword"\:""}}\,{"header"\:{"namespace"\:"Alerts"\,"name"\:"AlertsState"}\,"payload"\:{"allAlerts"\:[]\,"activeAlerts"\:[]}}]\,"event"\:{"header"\:{"namespace"\:"System"\,"name"\:"SynchronizeState"\,"messageId"\:"750dfd89-8570-4633-b5e0-aa70b6f8b506"}\,"payload"\:{}}}
+2018-04-05 14:24:49.002 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=  Trying 54.239.21.157...
+2018-04-05 14:24:49.002 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TCP_NODELAY set
+2018-04-05 14:24:49.036 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Connected to avs-alexa-na.amazon.com (54.239.21.157) port 443 (#0)
+2018-04-05 14:24:49.036 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=ALPN\, offering h2
+2018-04-05 14:24:49.036 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=ALPN\, offering http/1.1
+2018-04-05 14:24:49.036 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Cipher selection\: ALL\:!EXPORT\:!EXPORT40\:!EXPORT56\:!aNULL\:!LOW\:!RC4\:@STRENGTH
+2018-04-05 14:24:49.089 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=successfully set certificate verify locations\:
+2018-04-05 14:24:49.089 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=  CAfile\: /etc/ssl/certs/ca-certificates.crt
+  CApath\: /etc/ssl/certs
+2018-04-05 14:24:49.089 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (OUT)\, TLS header\, Certificate Status (22)\:
+2018-04-05 14:24:49.089 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (OUT)\, TLS handshake\, Client hello (1)\:
+2018-04-05 14:24:49.130 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (IN)\, TLS handshake\, Server hello (2)\:
+2018-04-05 14:24:49.131 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (IN)\, TLS handshake\, Certificate (11)\:
+2018-04-05 14:24:49.135 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (IN)\, TLS handshake\, Server key exchange (12)\:
+2018-04-05 14:24:49.136 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (IN)\, TLS handshake\, Server finished (14)\:
+2018-04-05 14:24:49.144 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (OUT)\, TLS handshake\, Client key exchange (16)\:
+2018-04-05 14:24:49.144 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (OUT)\, TLS change cipher\, Client hello (1)\:
+2018-04-05 14:24:49.145 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (OUT)\, TLS handshake\, Finished (20)\:
+2018-04-05 14:24:49.179 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (IN)\, TLS change cipher\, Client hello (1)\:
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=TLSv1.2 (IN)\, TLS handshake\, Finished (20)\:
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=ALPN\, server accepted to use h2
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Server certificate\:
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text= subject\: C\=US; ST\=Washington; L\=Seattle; O\=Amazon.com\, Inc.; CN\=latinum.amazon.com
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text= start date\: Feb 21 00\:00\:00 2018 GMT
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text= expire date\: May 21 12\:00\:00 2019 GMT
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text= subjectAltName\: host "avs-alexa-na.amazon.com" matched cert's "avs-alexa-na.amazon.com"
+2018-04-05 14:24:49.180 [  c] 0 HTTP2Stream:libcurl:streamId=1,text= issuer\: C\=US; O\=DigiCert Inc; CN\=DigiCert Global CA G2
+2018-04-05 14:24:49.181 [  c] 0 HTTP2Stream:libcurl:streamId=1,text= SSL certificate verify ok.
+2018-04-05 14:24:49.181 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Using HTTP2\, server supports multi-use
+2018-04-05 14:24:49.181 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Connection state changed (HTTP/2 confirmed)
+2018-04-05 14:24:49.181 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Copying HTTP/2 data in stream buffer to connection buffer after upgrade\: len\=0
+2018-04-05 14:24:49.181 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Using Stream ID\: 1 (easy handle 0x1ef1b58)
+2018-04-05 14:24:49.182 [  c] 0 HTTP2Stream:libcurl:streamId=1,text=Connection state changed (MAX_CONCURRENT_STREAMS updated)!
+2018-04-05 14:24:49.235 [  c] 0 HTTP2Stream:receivedRequestId:value=x-amzn-requestid\: 028f85fffe5462a0-00004c30-00033e97-cfbbfdf673475b9b-8831a1f8-1
+2018-04-05 14:24:49.236 [  c] 0 HTTP2Transport:processNextOutgoingMessage:jsonContent={"context"\:[{"header"\:{"namespace"\:"Alexa.PlaybackStateReporter"\,"name"\:"playbackState"}\,"payload"\:{"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]}}\,{"header"\:{"namespace"\:"Speaker"\,"name"\:"VolumeState"}\,"payload"\:{"volume"\:100\,"muted"\:false}}\,{"header"\:{"namespace"\:"ExternalMediaPlayer"\,"name"\:"ExternalMediaPlayerState"}\,"payload"\:{"playerInFocus"\:""\,"players"\:[]}}\,{"header"\:{"namespace"\:"Notifications"\,"name"\:"IndicatorState"}\,"payload"\:{"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false}}\,{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"}}\,{"header"\:{"namespace"\:"AudioPlayer"\,"name"\:"PlaybackState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"}}\,{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"RecognizerState"}\,"payload"\:{"wakeword"\:""}}\,{"header"\:{"namespace"\:"Alerts"\,"name"\:"AlertsState"}\,"payload"\:{"allAlerts"\:[]\,"activeAlerts"\:[]}}]\,"event"\:{"header"\:{"namespace"\:"System"\,"name"\:"SynchronizeState"\,"messageId"\:"750dfd89-8570-4633-b5e0-aa70b6f8b506"}\,"payload"\:{}}}
+2018-04-05 14:24:49.237 [  c] 0 HTTP2StreamPool:getStream:streamId=3,numAcquiredStreams=2
+2018-04-05 14:24:49.237 [  c] 9 HTTP2Transport:insertActiveStream:handle=0x733d7aa0
+2018-04-05 14:24:49.238 [  c] 0 HTTP2Stream:libcurl:streamId=3,text=Found bundle for host avs-alexa-na.amazon.com\: 0x73301fb0 [can multiplex]
+2018-04-05 14:24:49.238 [  c] 0 HTTP2Stream:libcurl:streamId=3,text=Conn\: 0 (0x733016d8) Receive pipe weight\: (-1/0)\, penalized\: (nil)
+2018-04-05 14:24:49.238 [  c] 0 HTTP2Stream:libcurl:streamId=3,text=Multiplexed connection found!
+2018-04-05 14:24:49.239 [  c] 0 HTTP2Stream:libcurl:streamId=3,text=Found connection 0\, with requests in the pipe (1)
+2018-04-05 14:24:49.239 [  c] 0 HTTP2Stream:libcurl:streamId=3,text=Re-using existing connection! (#0) with host avs-alexa-na.amazon.com
+2018-04-05 14:24:49.239 [  c] 0 HTTP2Stream:libcurl:streamId=3,text=Using Stream ID\: 3 (easy handle 0x733d7aa0)
+2018-04-05 14:24:49.549 [  c] 0 HTTP2Stream:receivedRequestId:value=x-amzn-requestid\: 028f85fffe5462a0-00004c30-0002f24a-276b336d2ea7d6c0-0513eed4-11
+2018-04-05 14:24:49.549 [  c] 0 HTTP2Stream:libcurl:streamId=3,text=Curl_http_done\: called premature \=\= 0
+2018-04-05 14:24:49.550 [  c] 0 PostConnectSynchronize:onSendCompleted:status=SUCCESS_NO_CONTENT
+2018-04-05 14:24:49.550 [  6] 9 PostConnectSynchronize:Exiting postConnectLoop thread
+2018-04-05 14:24:49.551 [  c] 0 PostConnectSynchronize:onConnected()
+2018-04-05 14:24:49.551 [  c] 0 MessageRouter:connectionStatusChanged:reason=ACL_CLIENT_REQUEST,newStatus=CONNECTED
+2018-04-05 14:24:49.552 [  3] 1 AlertsCapabilityAgent:executeOnConnectionStatusChanged:status=CONNECTED,reason=ACL_CLIENT_REQUEST
+########################################
+#       Alexa is currently idle!       #
+########################################
+
+2018-04-05 14:24:49.553 [  1] 9 SpeakerManager:addSpeakerManagerObserverCalled
+2018-04-05 14:24:49.553 [  1] 9 SpeakerManager:addSpeakerManagerObserver:observer=0x1ebfed0
+2018-04-05 14:24:49.553 [  c] 0 HTTP2Transport:cleanupFinishedStream:streamId=3,result=204
+2018-04-05 14:24:49.553 [  1] 5 NotificationsCapabilityAgent:addObserver
+2018-04-05 14:24:49.554 [  1] 9 TemplateRuntime:addObserver
+2018-04-05 14:24:49.555 [  d] 0 TemplateRuntime:addObserverInExecutor
+2018-04-05 14:24:49.556 [  c] 0 HTTP2StreamPool:releaseStream:streamId=3,numAcquiredStreams=1
+#################################################
+#       NOTIFICATION INDICATOR STATE: OFF       #
+#################################################
+
+2018-04-05 14:24:49.557 [  c] 0 CurlEasyHandleWrapper:reset:responseCode=HTTP_RESPONSE_SUCCESS_NO_CONTENT
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+2018-04-05 14:24:49.610 [  1] I SensoryKeywordDetector:License expires on 28 Jul 2018 00:00:00 GMT
+2018-04-05 14:24:49.610 [  1] I SensoryKeywordDetector:Sensory library license does not expire for at least 60 more days.
+                  #    #     #  #####      #####  ######  #    #              
+                 # #   #     # #     #    #     # #     # #   #               
+                #   #  #     # #          #       #     # #  #                
+               #     # #     #  #####      #####  #     # ###                 
+               #######  #   #        #          # #     # #  #                
+               #     #   # #   #     #    #     # #     # #   #               
+               #     #    #     #####      #####  ######  #    #              
+                                                                              
+       #####                                           #                      
+      #     #   ##   #    # #####  #      ######      # #   #####  #####      
+      #        #  #  ##  ## #    # #      #          #   #  #    # #    #     
+       #####  #    # # ## # #    # #      #####     #     # #    # #    #     
+            # ###### #    # #####  #      #         ####### #####  #####      
+      #     # #    # #    # #      #      #         #     # #      #          
+       #####  #    # #    # #      ###### ######    #     # #      #          
+
+       SDK Version 1.5.0
+
++----------------------------------------------------------------------------+
+|                                  Options:                                  |
+| Wake word:                                                                 |
+|       Simply say Alexa and begin your query.                               |
+| Tap to talk:                                                               |
+|       Press 't' and Enter followed by your query (no need for the 'Alexa').|
+| Hold to talk:                                                              |
+|       Press 'h' followed by Enter to simulate holding a button.            |
+|       Then say your query (no need for the 'Alexa').                       |
+|       Press 'h' followed by Enter to simulate releasing a button.          |
+| Stop an interaction:                                                       |
+|       Press 's' and Enter to stop an ongoing interaction.                  |
+| Privacy mode (microphone off):                                             |
+|       Press 'm' and Enter to turn on and off the microphone.               |
+| Echo Spatial Perception (ESP): This is only for testing purpose only!      |
+|       Press 'e' followed by Enter at any time to adjust ESP settings.      |
+| Playback Controls:                                                         |
+|       Press '1' for a 'PLAY' button press.                                 |
+|       Press '2' for a 'PAUSE' button press.                                |
+|       Press '3' for a 'NEXT' button press.                                 |
+|       Press '4' for a 'PREVIOUS' button press.                             |
+| Settings:                                                                  |
+|       Press 'c' followed by Enter at any time to see the settings screen.  |
+| Speaker Control:                                                           |
+|       Press 'p' followed by Enter at any time to adjust speaker settings.  |
+| Firmware Version:                                                          |
+|       Press 'f' followed by Enter at any time to report a different        |
+|       firmware version.                                                    |
+| Info:                                                                      |
+|       Press 'i' followed by Enter at any time to see the help screen.      |
+| Quit:                                                                      |
+|       Press 'q' followed by Enter at any time to quit the application.     |
++----------------------------------------------------------------------------+
+
+2018-04-05 14:24:56.381 [  b] 0 AudioInputProcessor:setState:from=IDLE,to=RECOGNIZING
+2018-04-05 14:24:56.382 [  b] 0 ContextManager:updateStateLocked:action=updatedState,state={"wakeword" \: "alexa"},namespace=SpeechRecognizer,name=RecognizerState
+2018-04-05 14:24:56.382 [  e] 0 DialogUXStateAggregator:setState:from=IDLE,to=LISTENING
+2018-04-05 14:24:56.382 [  7] 0 ExternalMediaPlayer:executeProvideState:sendToken=true,stateRequestToken=2
+2018-04-05 14:24:56.383 [  7] 0 ContextManager:updateStateLocked:action=updatedState,state={"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]},namespace=Alexa.PlaybackStateReporter,name=playbackState
+2018-04-05 14:24:56.383 [  7] 0 ExternalMediaPlayer:executeProvideState:sendToken=true,stateRequestToken=2
+############################
+#       Listening...       #
+############################
+
+2018-04-05 14:24:56.384 [  7] 0 ContextManager:updateStateLocked:action=updatedState,state={"playerInFocus"\:""\,"players"\:[]},namespace=ExternalMediaPlayer,name=ExternalMediaPlayerState
+2018-04-05 14:24:56.382 [  8] 0 NotificationsCapabilityAgent:provideState:stateRequestToken=2
+2018-04-05 14:24:56.385 [  4] 5 NotificationsCapabilityAgent:executeProvideState:sendToken=true,stateRequestToken=2
+2018-04-05 14:24:56.386 [  4] 0 ContextManager:updateStateLocked:action=updatedState,state={"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false},namespace=Notifications,name=IndicatorState
+2018-04-05 14:24:56.389 [  8] 0 ContextManager:buildContextSuccessful:context={"context"\:[{"header"\:{"namespace"\:"Alexa.PlaybackStateReporter"\,"name"\:"playbackState"}\,"payload"\:{"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]}}\,{"header"\:{"namespace"\:"Speaker"\,"name"\:"VolumeState"}\,"payload"\:{"volume"\:100\,"muted"\:false}}\,{"header"\:{"namespace"\:"ExternalMediaPlayer"\,"name"\:"ExternalMediaPlayerState"}\,"payload"\:{"playerInFocus"\:""\,"players"\:[]}}\,{"header"\:{"namespace"\:"Notifications"\,"name"\:"IndicatorState"}\,"payload"\:{"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false}}\,{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"}}\,{"header"\:{"namespace"\:"AudioPlayer"\,"name"\:"PlaybackState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"}}\,{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"RecognizerState"}\,"payload"\:{"wakeword"\:"alexa"}}\,{"header"\:{"namespace"\:"Alerts"\,"name"\:"AlertsState"}\,"payload"\:{"allAlerts"\:[]\,"activeAlerts"\:[]}}]}
+2018-04-05 14:24:56.390 [  b] 0 AudioInputProcessor:executeOnContextAvailable:jsonContext={"context"\:[{"header"\:{"namespace"\:"Alexa.PlaybackStateReporter"\,"name"\:"playbackState"}\,"payload"\:{"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]}}\,{"header"\:{"namespace"\:"Speaker"\,"name"\:"VolumeState"}\,"payload"\:{"volume"\:100\,"muted"\:false}}\,{"header"\:{"namespace"\:"ExternalMediaPlayer"\,"name"\:"ExternalMediaPlayerState"}\,"payload"\:{"playerInFocus"\:""\,"players"\:[]}}\,{"header"\:{"namespace"\:"Notifications"\,"name"\:"IndicatorState"}\,"payload"\:{"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false}}\,{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"}}\,{"header"\:{"namespace"\:"AudioPlayer"\,"name"\:"PlaybackState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"}}\,{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"RecognizerState"}\,"payload"\:{"wakeword"\:"alexa"}}\,{"header"\:{"namespace"\:"Alerts"\,"name"\:"AlertsState"}\,"payload"\:{"allAlerts"\:[]\,"activeAlerts"\:[]}}]}
+2018-04-05 14:24:56.391 [  b] 1 FocusManager:acquireChannel:channelName=Dialog,activityId=SpeechRecognizer.Recognize
+2018-04-05 14:24:56.392 [  b] I DirectiveProcessor:setDialogRequestIdLocked:oldValue=,newValue=3c3aaa91-85a2-4b90-b1b2-6b1f0fa09548
+2018-04-05 14:24:56.392 [  f] 9 AudioInputProcessor:onFocusChanged:newFocus=FOREGROUND
+2018-04-05 14:24:56.392 [  b] 0 DirectiveProcessor:scrubDialogRequestIdLocked:reason=emptyDialogRequestId
+2018-04-05 14:24:56.394 [  b] 0 EventBuilder:buildJsonEventString:messageId=77b4644b-8e45-45f9-8b76-28c3f56498a5,namespace=SpeechRecognizer,name=Recognize
+2018-04-05 14:24:56.396 [  b] 0 AudioInputProcessor:executeOnFocusChanged:newFocus=FOREGROUND
+2018-04-05 14:24:56.396 [  b] 9 HTTP2Transport:enqueueRequest:jsonContent={"context"\:[{"header"\:{"namespace"\:"Alexa.PlaybackStateReporter"\,"name"\:"playbackState"}\,"payload"\:{"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]}}\,{"header"\:{"namespace"\:"Speaker"\,"name"\:"VolumeState"}\,"payload"\:{"volume"\:100\,"muted"\:false}}\,{"header"\:{"namespace"\:"ExternalMediaPlayer"\,"name"\:"ExternalMediaPlayerState"}\,"payload"\:{"playerInFocus"\:""\,"players"\:[]}}\,{"header"\:{"namespace"\:"Notifications"\,"name"\:"IndicatorState"}\,"payload"\:{"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false}}\,{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"}}\,{"header"\:{"namespace"\:"AudioPlayer"\,"name"\:"PlaybackState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"}}\,{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"RecognizerState"}\,"payload"\:{"wakeword"\:"alexa"}}\,{"header"\:{"namespace"\:"Alerts"\,"name"\:"AlertsState"}\,"payload"\:{"allAlerts"\:[]\,"activeAlerts"\:[]}}]\,"event"\:{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"Recognize"\,"messageId"\:"77b4644b-8e45-45f9-8b76-28c3f56498a5"\,"dialogRequestId"\:"3c3aaa91-85a2-4b90-b1b2-6b1f0fa09548"}\,"payload"\:{"profile"\:"NEAR_FIELD"\,"format"\:"AUDIO_L16_RATE_16000_CHANNELS_1"\,"initiator"\:{"type"\:"WAKEWORD"\,"payload"\:{"wakeWordIndices"\:{"startIndexInSamples"\:8000\,"endIndexInSamples"\:14720}}}}}}
+2018-04-05 14:24:56.478 [  c] 0 HTTP2Transport:processNextOutgoingMessage:jsonContent={"context"\:[{"header"\:{"namespace"\:"Alexa.PlaybackStateReporter"\,"name"\:"playbackState"}\,"payload"\:{"state"\:"IDLE"\,"supportedOperations"\:[]\,"shuffle"\:"NOT_SHUFFLED"\,"repeat"\:"NOT_REPEATED"\,"favorite"\:"NOT_RATED"\,"positionMilliseconds"\:0\,"uncertaintyInMilliseconds"\:0\,"players"\:[]}}\,{"header"\:{"namespace"\:"Speaker"\,"name"\:"VolumeState"}\,"payload"\:{"volume"\:100\,"muted"\:false}}\,{"header"\:{"namespace"\:"ExternalMediaPlayer"\,"name"\:"ExternalMediaPlayerState"}\,"payload"\:{"playerInFocus"\:""\,"players"\:[]}}\,{"header"\:{"namespace"\:"Notifications"\,"name"\:"IndicatorState"}\,"payload"\:{"isEnabled"\:false\,"isVisualIndicatorPersisted"\:false}}\,{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"}}\,{"header"\:{"namespace"\:"AudioPlayer"\,"name"\:"PlaybackState"}\,"payload"\:{"token"\:""\,"offsetInMilliseconds"\:0\,"playerActivity"\:"IDLE"}}\,{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"RecognizerState"}\,"payload"\:{"wakeword"\:"alexa"}}\,{"header"\:{"namespace"\:"Alerts"\,"name"\:"AlertsState"}\,"payload"\:{"allAlerts"\:[]\,"activeAlerts"\:[]}}]\,"event"\:{"header"\:{"namespace"\:"SpeechRecognizer"\,"name"\:"Recognize"\,"messageId"\:"77b4644b-8e45-45f9-8b76-28c3f56498a5"\,"dialogRequestId"\:"3c3aaa91-85a2-4b90-b1b2-6b1f0fa09548"}\,"payload"\:{"profile"\:"NEAR_FIELD"\,"format"\:"AUDIO_L16_RATE_16000_CHANNELS_1"\,"initiator"\:{"type"\:"WAKEWORD"\,"payload"\:{"wakeWordIndices"\:{"startIndexInSamples"\:8000\,"endIndexInSamples"\:14720}}}}}}
+2018-04-05 14:24:56.479 [  c] 0 HTTP2StreamPool:getStream:streamId=5,numAcquiredStreams=2
+2018-04-05 14:24:56.479 [  c] 9 HTTP2Transport:insertActiveStream:handle=0x733d7aa0
+2018-04-05 14:24:56.480 [  c] 0 HTTP2Stream:libcurl:streamId=5,text=Found bundle for host avs-alexa-na.amazon.com\: 0x73301fb0 [can multiplex]
+2018-04-05 14:24:56.480 [  c] 0 HTTP2Stream:libcurl:streamId=5,text=Conn\: 0 (0x733016d8) Receive pipe weight\: (-1/0)\, penalized\: (nil)
+2018-04-05 14:24:56.480 [  c] 0 HTTP2Stream:libcurl:streamId=5,text=Multiplexed connection found!
+2018-04-05 14:24:56.481 [  c] 0 HTTP2Stream:libcurl:streamId=5,text=Found connection 0\, with requests in the pipe (1)
+2018-04-05 14:24:56.481 [  c] 0 HTTP2Stream:libcurl:streamId=5,text=Re-using existing connection! (#0) with host avs-alexa-na.amazon.com
+2018-04-05 14:24:56.481 [  c] 0 HTTP2Stream:libcurl:streamId=5,text=Using Stream ID\: 5 (easy handle 0x733d7aa0)
+2018-04-05 14:24:58.682 [ 10] 0 MessageInterpreter:receive:messageId=9cbe2700-37ad-4f89-bdd1-605716cf3839:No dialogRequestId attached to message.
+2018-04-05 14:24:58.683 [ 10] I DirectiveSequencer:onDirective:directive={"namespace\:"SpeechRecognizer"\,name\:"StopCapture"\,messageId\:"9cbe2700-37ad-4f89-bdd1-605716cf3839"\,dialogRequestId\:""}
+2018-04-05 14:24:58.685 [ 11] I DirectiveRouter:preHandleDirective:messageId=9cbe2700-37ad-4f89-bdd1-605716cf3839,action=calling
+2018-04-05 14:24:58.686 [ 11] 0 CapabilityAgent:addingMessageIdToMap:messageId=9cbe2700-37ad-4f89-bdd1-605716cf3839
+2018-04-05 14:24:58.688 [ 12] I DirectiveRouter:handleDirective:messageId=9cbe2700-37ad-4f89-bdd1-605716cf3839,action=calling
+2018-04-05 14:24:58.689 [  b] 0 AudioInputProcessor:stopCapture:stopImmediately=true
+2018-04-05 14:24:58.689 [  b] 0 AudioInputProcessor:setState:from=RECOGNIZING,to=BUSY
+2018-04-05 14:24:58.689 [  e] 0 DialogUXStateAggregator:setState:from=LISTENING,to=THINKING
+###########################
+#       Thinking...       #
+###########################
+
+2018-04-05 14:24:58.690 [  b] 0 DirectiveProcessor:onHandlingCompeted:messageId=9cbe2700-37ad-4f89-bdd1-605716cf3839,directiveBeingPreHandled=(nullptr)
+2018-04-05 14:24:58.691 [  b] 0 CapabilityAgent:removingMessageIdFromMap:messageId=9cbe2700-37ad-4f89-bdd1-605716cf3839
+2018-04-05 14:24:58.692 [  c] I InProcessAttachmentReader:readFailed:reason=SDS is closed
+2018-04-05 14:24:59.059 [  c] 0 HTTP2Stream:receivedRequestId:value=x-amzn-requestid\: 028f85fffe5462a0-00004c30-0002e0dd-7ebe3b512a76a64d-97cef750-15185
+2018-04-05 14:24:59.096 [ 10] I DirectiveSequencer:onDirective:directive={"namespace\:"SpeechSynthesizer"\,name\:"Speak"\,messageId\:"342f6123-efa3-4880-bd82-39611cb86a66"\,dialogRequestId\:"3c3aaa91-85a2-4b90-b1b2-6b1f0fa09548"}
+2018-04-05 14:24:59.097 [ 11] I DirectiveRouter:preHandleDirective:messageId=342f6123-efa3-4880-bd82-39611cb86a66,action=calling
+2018-04-05 14:24:59.098 [ 11] 0 CapabilityAgent:addingMessageIdToMap:messageId=342f6123-efa3-4880-bd82-39611cb86a66
+2018-04-05 14:24:59.098 [ 11] 9 SpeechSynthesizer:preHandleDirective:messageId=342f6123-efa3-4880-bd82-39611cb86a66
+2018-04-05 14:24:59.099 [  9] 0 SpeechSynthesizer:executePreHandle:messageId=342f6123-efa3-4880-bd82-39611cb86a66
+2018-04-05 14:24:59.101 [ 12] I DirectiveRouter:handleDirective:messageId=342f6123-efa3-4880-bd82-39611cb86a66,action=calling
+2018-04-05 14:24:59.101 [ 12] 9 SpeechSynthesizer:handleDirective:messageId=342f6123-efa3-4880-bd82-39611cb86a66
+2018-04-05 14:24:59.105 [  9] 0 SpeechSynthesizer:executeHandle:messageId=342f6123-efa3-4880-bd82-39611cb86a66
+2018-04-05 14:24:59.105 [  9] 1 FocusManager:acquireChannel:channelName=Dialog,activityId=SpeechSynthesizer.Speak
+2018-04-05 14:24:59.106 [  f] 9 AudioInputProcessor:onFocusChanged:newFocus=NONE
+2018-04-05 14:24:59.106 [  f] 0 SpeechSynthesizer:onFocusChanged:newFocus=FOREGROUND
+2018-04-05 14:24:59.106 [  b] 0 AudioInputProcessor:executeOnFocusChanged:newFocus=NONE
+2018-04-05 14:24:59.106 [  f] 9 SpeechSynthesizer:setCurrentStateLocked:state=GAINING_FOCUS
+2018-04-05 14:24:59.106 [  b] 0 AudioInputProcessor:executeOnFocusChanged:reason=Lost focus
+2018-04-05 14:24:59.106 [  9] 0 SpeechSynthesizer:executeStateChange:newState=PLAYING
+2018-04-05 14:24:59.107 [  9] 9 SpeechSynthesizer:startPlaying
+2018-04-05 14:24:59.107 [  b] 0 AudioInputProcessor:setState:from=BUSY,to=IDLE
+2018-04-05 14:24:59.107 [  9] 9 MediaPlayer:setSourceCalled:sourceType=AttachmentReader
+2018-04-05 14:24:59.108 [  2] 0 MediaPlayer:handleSetSourceCalled
+2018-04-05 14:24:59.108 [  2] 9 MediaPlayer:tearDownTransientPipelineElements
+2018-04-05 14:24:59.108 [  2] E MediaPlayer:saveOffsetBeforeTeardown - gst_element_query_position failed
+2018-04-05 14:24:59.112 [  2] 9 BaseStreamSource:initNoAudioFormat
+2018-04-05 14:24:59.130 [  c] 0 HTTP2Stream:libcurl:streamId=5,text=Curl_http_done\: called premature \=\= 0
+2018-04-05 14:24:59.131 [  c] 0 AudioInputProcessor:onSendCompleted:status=SUCCESS
+2018-04-05 14:24:59.131 [  c] 0 HTTP2Transport:cleanupFinishedStream:streamId=5,result=200
+2018-04-05 14:24:59.131 [  c] 0 HTTP2StreamPool:releaseStream:streamId=5,numAcquiredStreams=1
+2018-04-05 14:24:59.132 [  9] 9 MediaPlayer:playCalled
+2018-04-05 14:24:59.132 [  2] 0 MediaPlayer:handlePlayCalled:idPassed=1,currentId=1
+2018-04-05 14:24:59.143 [  2] 9 AttachmentReaderSource:handleSeekData:offset=0
+2018-04-05 14:24:59.145 [  2] 0 MediaPlayer:handlePlay:startingState=PLAYING,stateReturn=ASYNC
+2018-04-05 14:24:59.145 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio_sink
+2018-04-05 14:24:59.145 [ 13] 9 BaseStreamSource:onNeedDataCalled:size=4096
+2018-04-05 14:24:59.146 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=volume
+2018-04-05 14:24:59.146 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=converter
+2018-04-05 14:24:59.147 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=decodedQueue
+2018-04-05 14:24:59.147 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=typefind
+2018-04-05 14:24:59.148 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=decoder
+2018-04-05 14:24:59.148 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=src
+2018-04-05 14:24:59.148 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio-pipeline
+2018-04-05 14:24:59.149 [  2] 9 MediaPlayer:State Change:oldState=NULL,newState=READY,pendingState=PLAYING
+2018-04-05 14:24:59.149 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=volume
+2018-04-05 14:24:59.149 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=converter
+2018-04-05 14:24:59.150 [  2] 9 MediaPlayer:messageReceived:type=stream-status,source=src
+2018-04-05 14:24:59.150 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=decodedQueue
+2018-04-05 14:24:59.150 [  2] 9 MediaPlayer:messageReceived:type=stream-status,source=src
+2018-04-05 14:24:59.151 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=typefind
+2018-04-05 14:24:59.151 [  2] 9 MediaPlayer:messageReceived:type=stream-status,source=src
+2018-04-05 14:24:59.151 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=src
+2018-04-05 14:24:59.152 [  2] 9 MediaPlayer:messageReceived:type=stream-status,source=src
+2018-04-05 14:24:59.152 [  2] 9 BaseStreamSource:handleNeedDataCalled
+2018-04-05 14:24:59.153 [  2] 9 BaseStreamSource:installOnReadDataHandler:action=newSourceId,sourceId=15
+2018-04-05 14:24:59.153 [  2] 9 AttachmentReaderSource:read:size=4096,status=0
+2018-04-05 14:24:59.154 [  2] 9 AttachmentReaderSource:read:size=4096,status=0
+2018-04-05 14:24:59.154 [  2] 9 AttachmentReaderSource:read:size=4096,status=0
+2018-04-05 14:24:59.155 [  2] 9 AttachmentReaderSource:read:size=4096,status=0
+2018-04-05 14:24:59.155 [  2] 9 AttachmentReaderSource:read:size=4096,status=0
+2018-04-05 14:24:59.156 [  2] 9 AttachmentReaderSource:read:size=4096,status=0
+2018-04-05 14:24:59.156 [  2] 9 AttachmentReaderSource:read:size=4096,status=0
+2018-04-05 14:24:59.157 [  2] 9 AttachmentReaderSource:read:size=3341,status=0
+2018-04-05 14:24:59.158 [  2] I InProcessAttachmentReader:readFailed:reason=SDS is closed
+2018-04-05 14:24:59.158 [  2] 9 AttachmentReaderSource:read:size=0,status=3
+2018-04-05 14:24:59.158 [  2] 9 AttachmentReaderSource:handleReadData:info=signalingEndOfData
+2018-04-05 14:24:59.159 [  2] 9 BaseStreamSource:signalEndOfDataCalled
+2018-04-05 14:24:59.159 [  2] 9 BaseStreamSource:gstAppSrcEndOfStreamSuccess
+2018-04-05 14:24:59.160 [  2] 9 BaseStreamSource:clearOnReadDataHandlerCalled:sourceId=15
+2018-04-05 14:24:59.180 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=id3demux0
+2018-04-05 14:24:59.180 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=id3demux0
+2018-04-05 14:24:59.186 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=mpegaudioparse0
+2018-04-05 14:24:59.187 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=mpegaudioparse0
+2018-04-05 14:24:59.195 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=mad0
+2018-04-05 14:24:59.195 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=mad0
+2018-04-05 14:24:59.196 [ 13] 9 MediaPlayer:onPadAddedCalled
+2018-04-05 14:24:59.197 [  2] 9 MediaPlayer:handlePadAddedSignalCalled
+2018-04-05 14:24:59.199 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=decoder
+2018-04-05 14:24:59.199 [  2] 9 MediaPlayer:messageReceived:type=stream-start,source=audio-pipeline
+2018-04-05 14:24:59.204 [  2] 9 MediaPlayer:messageReceived:type=latency,source=audio_sink-actual-sink-alsa
+2018-04-05 14:24:59.205 [  2] 9 MediaPlayer:messageReceived:type=tag,source=audio_sink-actual-sink-alsa
+2018-04-05 14:24:59.206 [  2] 0 MediaPlayer:callingOnTags
+2018-04-05 14:24:59.206 [  2] 9 MediaPlayer:messageReceived:type=tag,source=audio_sink-actual-sink-alsa
+2018-04-05 14:24:59.206 [  2] 0 MediaPlayer:callingOnTags
+2018-04-05 14:24:59.206 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio_sink-actual-sink-alsa
+2018-04-05 14:24:59.206 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio_sink
+2018-04-05 14:24:59.206 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio-pipeline
+2018-04-05 14:24:59.206 [  2] 9 MediaPlayer:State Change:oldState=READY,newState=PAUSED,pendingState=PLAYING
+2018-04-05 14:24:59.206 [  2] 9 MediaPlayer:messageReceived:type=async-done,source=audio-pipeline
+2018-04-05 14:24:59.206 [  2] 9 MediaPlayer:messageReceived:type=stream-status,source=audiosinkringbuffer0
+2018-04-05 14:24:59.207 [  2] 9 MediaPlayer:messageReceived:type=new-clock,source=audio-pipeline
+2018-04-05 14:24:59.208 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio_sink-actual-sink-alsa
+2018-04-05 14:24:59.210 [  2] 9 MediaPlayer:messageReceived:type=tag,source=audio_sink-actual-sink-alsa
+2018-04-05 14:24:59.211 [  2] 0 MediaPlayer:callingOnTags
+2018-04-05 14:24:59.211 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio_sink
+2018-04-05 14:24:59.212 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=volume
+2018-04-05 14:24:59.212 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=converter
+2018-04-05 14:24:59.213 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=decodedQueue
+2018-04-05 14:24:59.213 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=mad0
+2018-04-05 14:24:59.213 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=mpegaudioparse0
+2018-04-05 14:24:59.214 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=id3demux0
+2018-04-05 14:24:59.214 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=typefind
+2018-04-05 14:24:59.215 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=decoder
+2018-04-05 14:24:59.215 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=src
+2018-04-05 14:24:59.215 [  2] 9 MediaPlayer:messageReceived:type=state-changed,source=audio-pipeline
+2018-04-05 14:24:59.215 [  2] 9 MediaPlayer:State Change:oldState=PAUSED,newState=PLAYING,pendingState=VOID_PENDING
+2018-04-05 14:24:59.216 [  2] 0 MediaPlayer:callingOnPlaybackStarted:currentId=1
+2018-04-05 14:24:59.216 [  2] 9 SpeechSynthesizer:onPlaybackStarted:callbackSourceId=1
+2018-04-05 14:24:59.217 [  9] 0 SpeechSynthesizer:executePlaybackStarted
+2018-04-05 14:24:59.217 [  9] 9 SpeechSynthesizer:setCurrentStateLocked:state=PLAYING
+2018-04-05 14:24:59.217 [  9] 0 SpeechSynthesizer:executeProvideState:stateRequestToken=0
+2018-04-05 14:24:59.217 [  9] 9 MediaPlayer:getOffsetCalled
+2018-04-05 14:24:59.217 [  2] 0 MediaPlayer:handleGetOffsetCalled:idPassed=1,currentId=1
+2018-04-05 14:24:59.218 [  9] 0 ContextManager:updateStateLocked:action=updatedState,state={"token"\:"amzn1.as-ct.v1.Domain\:Application\:Knowledge#ACRI#2270055b-72b0-4817-8675-a7fe0a10444a"\,"offsetInMilliseconds"\:384\,"playerActivity"\:"PLAYING"},namespace=SpeechSynthesizer,name=SpeechState
+2018-04-05 14:24:59.218 [  f] 9 SpeechSynthesizer:onFocusChangedSuccess
+2018-04-05 14:24:59.219 [  9] 0 EventBuilder:buildJsonEventString:messageId=5c24bfe2-8bd9-4e8c-a1d1-affeced01080,namespace=SpeechSynthesizer,name=SpeechStarted
+2018-04-05 14:24:59.219 [  e] 0 DialogUXStateAggregator:setState:from=THINKING,to=SPEAKING
+###########################
+#       Speaking...       #
+###########################
+
+2018-04-05 14:24:59.219 [  9] 9 HTTP2Transport:enqueueRequest:jsonContent={"event"\:{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechStarted"\,"messageId"\:"5c24bfe2-8bd9-4e8c-a1d1-affeced01080"}\,"payload"\:{"token"\:"amzn1.as-ct.v1.Domain\:Application\:Knowledge#ACRI#2270055b-72b0-4817-8675-a7fe0a10444a"}}}
+2018-04-05 14:24:59.232 [  c] 0 HTTP2Transport:processNextOutgoingMessage:jsonContent={"event"\:{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechStarted"\,"messageId"\:"5c24bfe2-8bd9-4e8c-a1d1-affeced01080"}\,"payload"\:{"token"\:"amzn1.as-ct.v1.Domain\:Application\:Knowledge#ACRI#2270055b-72b0-4817-8675-a7fe0a10444a"}}}
+2018-04-05 14:24:59.233 [  c] 0 HTTP2StreamPool:getStream:streamId=7,numAcquiredStreams=2
+2018-04-05 14:24:59.233 [  c] 9 HTTP2Transport:insertActiveStream:handle=0x733d7aa0
+2018-04-05 14:24:59.233 [  c] 0 HTTP2Stream:libcurl:streamId=7,text=Found bundle for host avs-alexa-na.amazon.com\: 0x73301fb0 [can multiplex]
+2018-04-05 14:24:59.233 [  c] 0 HTTP2Stream:libcurl:streamId=7,text=Conn\: 0 (0x733016d8) Receive pipe weight\: (-1/0)\, penalized\: (nil)
+2018-04-05 14:24:59.234 [  c] 0 HTTP2Stream:libcurl:streamId=7,text=Multiplexed connection found!
+2018-04-05 14:24:59.234 [  c] 0 HTTP2Stream:libcurl:streamId=7,text=Found connection 0\, with requests in the pipe (1)
+2018-04-05 14:24:59.234 [  c] 0 HTTP2Stream:libcurl:streamId=7,text=Re-using existing connection! (#0) with host avs-alexa-na.amazon.com
+2018-04-05 14:24:59.234 [  c] 0 HTTP2Stream:libcurl:streamId=7,text=Using Stream ID\: 7 (easy handle 0x733d7aa0)
+2018-04-05 14:24:59.412 [  c] 0 HTTP2Stream:receivedRequestId:value=x-amzn-requestid\: 028f85fffe5462a0-00004c30-00030791-8ab3c82be1d134ca-8f969c27-11
+2018-04-05 14:24:59.412 [  c] 0 HTTP2Stream:libcurl:streamId=7,text=Curl_http_done\: called premature \=\= 0
+2018-04-05 14:24:59.412 [  c] 0 HTTP2Transport:cleanupFinishedStream:streamId=7,result=204
+2018-04-05 14:24:59.413 [  c] 0 HTTP2StreamPool:releaseStream:streamId=7,numAcquiredStreams=1
+2018-04-05 14:24:59.413 [  c] 0 CurlEasyHandleWrapper:reset:responseCode=HTTP_RESPONSE_SUCCESS_NO_CONTENT
+2018-04-05 14:25:03.123 [ 13] 9 BaseStreamSource:onNeedDataCalled:size=4096
+2018-04-05 14:25:03.123 [  2] 9 BaseStreamSource:handleNeedDataCalled
+2018-04-05 14:25:04.163 [  2] 9 MediaPlayer:messageReceived:type=eos,source=audio-pipeline
+2018-04-05 14:25:04.464 [  2] 9 BaseStreamSource:~BaseStreamSource
+2018-04-05 14:25:04.464 [  2] 0 MediaPlayer:callingOnPlaybackFinished:currentId=1
+2018-04-05 14:25:04.464 [  2] 9 SpeechSynthesizer:onPlaybackFinished:callbackSourceId=1
+2018-04-05 14:25:04.465 [  2] 9 MediaPlayer:tearDownTransientPipelineElements
+2018-04-05 14:25:04.465 [  9] 0 SpeechSynthesizer:executePlaybackFinished
+2018-04-05 14:25:04.465 [  9] 9 SpeechSynthesizer:setCurrentStateLocked:state=FINISHED
+2018-04-05 14:25:04.465 [  2] 0 MediaPlayer:saveOffsetBeforeTeardown:offset=5328
+2018-04-05 14:25:04.465 [  9] 0 SpeechSynthesizer:executeProvideState:stateRequestToken=0
+2018-04-05 14:25:04.466 [  9] 0 ContextManager:updateStateLocked:action=updatedState,state={"token"\:"amzn1.as-ct.v1.Domain\:Application\:Knowledge#ACRI#2270055b-72b0-4817-8675-a7fe0a10444a"\,"offsetInMilliseconds"\:0\,"playerActivity"\:"FINISHED"},namespace=SpeechSynthesizer,name=SpeechState
+2018-04-05 14:25:04.467 [  9] 0 EventBuilder:buildJsonEventString:messageId=c0cd21ec-78ac-40fc-a7dd-9a4225964e77,namespace=SpeechSynthesizer,name=SpeechFinished
+2018-04-05 14:25:04.468 [  9] 9 HTTP2Transport:enqueueRequest:jsonContent={"event"\:{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechFinished"\,"messageId"\:"c0cd21ec-78ac-40fc-a7dd-9a4225964e77"}\,"payload"\:{"token"\:"amzn1.as-ct.v1.Domain\:Application\:Knowledge#ACRI#2270055b-72b0-4817-8675-a7fe0a10444a"}}}
+2018-04-05 14:25:04.468 [  9] 9 SpeechSynthesizer:setHandlingCompleted
+2018-04-05 14:25:04.468 [  9] 0 DirectiveProcessor:onHandlingCompeted:messageId=342f6123-efa3-4880-bd82-39611cb86a66,directiveBeingPreHandled=(nullptr)
+2018-04-05 14:25:04.469 [  9] 0 CapabilityAgent:removingMessageIdFromMap:messageId=342f6123-efa3-4880-bd82-39611cb86a66
+2018-04-05 14:25:04.526 [  c] 0 HTTP2Transport:processNextOutgoingMessage:jsonContent={"event"\:{"header"\:{"namespace"\:"SpeechSynthesizer"\,"name"\:"SpeechFinished"\,"messageId"\:"c0cd21ec-78ac-40fc-a7dd-9a4225964e77"}\,"payload"\:{"token"\:"amzn1.as-ct.v1.Domain\:Application\:Knowledge#ACRI#2270055b-72b0-4817-8675-a7fe0a10444a"}}}
+2018-04-05 14:25:04.527 [  c] 0 HTTP2StreamPool:getStream:streamId=9,numAcquiredStreams=2
+2018-04-05 14:25:04.527 [  c] 9 HTTP2Transport:insertActiveStream:handle=0x733d7aa0
+2018-04-05 14:25:04.528 [  c] 0 HTTP2Stream:libcurl:streamId=9,text=Found bundle for host avs-alexa-na.amazon.com\: 0x73301fb0 [can multiplex]
+2018-04-05 14:25:04.528 [  c] 0 HTTP2Stream:libcurl:streamId=9,text=Conn\: 0 (0x733016d8) Receive pipe weight\: (-1/0)\, penalized\: (nil)
+2018-04-05 14:25:04.528 [  c] 0 HTTP2Stream:libcurl:streamId=9,text=Multiplexed connection found!
+2018-04-05 14:25:04.529 [  c] 0 HTTP2Stream:libcurl:streamId=9,text=Found connection 0\, with requests in the pipe (1)
+2018-04-05 14:25:04.529 [  c] 0 HTTP2Stream:libcurl:streamId=9,text=Re-using existing connection! (#0) with host avs-alexa-na.amazon.com
+2018-04-05 14:25:04.529 [  c] 0 HTTP2Stream:libcurl:streamId=9,text=Using Stream ID\: 9 (easy handle 0x733d7aa0)
+2018-04-05 14:25:04.668 [  e] 0 DialogUXStateAggregator:setState:from=SPEAKING,to=IDLE
+########################################
+#       Alexa is currently idle!       #
+########################################
+
+2018-04-05 14:25:04.669 [  9] 1 FocusManager:releaseChannel:channelName=Dialog
+2018-04-05 14:25:04.670 [  f] 0 SpeechSynthesizer:onFocusChanged:newFocus=NONE
+2018-04-05 14:25:04.734 [  c] 0 HTTP2Stream:receivedRequestId:value=x-amzn-requestid\: 028f85fffe5462a0-00004c30-00033af6-00547a0b785bbd7c-5aafefb3-423
+2018-04-05 14:25:04.735 [  c] 0 HTTP2Stream:libcurl:streamId=9,text=Curl_http_done\: called premature \=\= 0
+2018-04-05 14:25:04.735 [  c] 0 HTTP2Transport:cleanupFinishedStream:streamId=9,result=204
+2018-04-05 14:25:04.735 [  c] 0 HTTP2StreamPool:releaseStream:streamId=9,numAcquiredStreams=1
+2018-04-05 14:25:04.735 [  c] 0 CurlEasyHandleWrapper:reset:responseCode=HTTP_RESPONSE_SUCCESS_NO_CONTENT
+
+
