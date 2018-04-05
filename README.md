@@ -75,18 +75,18 @@ Open the file in a editor and use the `Client ID`, `Product ID` and `Client Secr
 
 Run the setup script with your configuration as an argument:
 ```
-bash setup.sh config.txt
+bash ./setup.sh ./config.txt
 ```
 This installation can take some time,  about an hour, so go find something useful to do while waiting :)
 
 After the setup script has finished running, you'll need to generate an authorization token. Run this command, and open your browser and navigate to `http://localhost:3000`. Log in with your Amazon credentials and follow the instructions provided:
 ```
-bash startauth.sh
+bash ./startauth.sh
 ```
 
 ### 4. Run Alexa!
 
 Let's run the Sample App:
 ```
-bash startsample.sh
+bash ./startsample.sh
 ```
