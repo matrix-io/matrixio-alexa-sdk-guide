@@ -14,7 +14,7 @@ Before get started, let's review what you'll need.
 * Internet connection (Ethernet or WiFi)
 (Optional) WiFi Wireless Adapter for Pi 2. Nyyote: Pi 3 has built-in WiFi.
 
-First, this guide can take around an hour to install all packages and build the Alexa SDK. We have made an image with all packages installed and part of the SDK already built that takes that time to just few minutes. We recommned following the full guide that will make you see how everything is installed and build but if you are really in a hurry, the version of this guide using an pre-built image is [here](https://github.com/matrix-io/matrixio-alexa-sdk-guide/blob/master/matrix-alexa-guide-using-image.md).
+First, this guide can take around an hour to install all packages and build the Alexa SDK. We have made an image with all packages installed and part of the SDK already built that takes that time to just few minutes. We recommned following the full guide in this readme, it will make you see how everything is installed and build but. If you are really in a hurry, the version of this guide using a pre-built image is [here](https://github.com/matrix-io/matrixio-alexa-sdk-guide/blob/master/matrix-alexa-guide-using-image.md).
 
 ### Let's get started
 
