@@ -33,23 +33,17 @@ echo "deb https://apt.matrix.one/raspbian $(lsb_release -sc) main" | sudo tee /e
 sudo apt-get update
 sudo apt-get upgrade
 
-# Installation MATRIX Pacakages
-sudo apt install matrixio-creator-init
-# Installation Kernel Packages
-sudo apt-get -y install raspberrypi-kernel-headers raspberrypi-kernel git 
-# Reboot
+# Reboot in case of Kernel Updates
 sudo reboot 
 ```
-After reboot reconnect. Clone and build the kernel modules:
-
+Connect after reboot and continue with:
 ```
-git clone https://github.com/matrix-io/matrixio-kernel-modules
-cd matrixio-kernel-modules
-make && make install
-echo "dtoverlay=matrixio" | sudo tee -a /boot/config.txt
-echo "matrixio-everloop" | sudo tee -a /etc/modules
+# Installation MATRIX Pacakages
+sudo apt install matrixio-creator-init
+# Install kernel modules package
+sudo apt install matrixio-kernel-modules
 
-# Reboot again
+# Reboot
 sudo reboot
 ```
 
