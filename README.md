@@ -38,6 +38,8 @@ sudo reboot
 ```
 Connect after reboot and continue with:
 ```
+# Update again is needed in case Kernel Updates
+sudo apt-get update
 # Installation MATRIX Pacakages
 sudo apt install matrixio-creator-init
 # Install kernel modules package
