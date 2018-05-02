@@ -65,8 +65,8 @@ For Allowed Return URLs use `http://localhost:3000/authresponse` and `https://lo
 Download the install script. We recommend running these commands from the home directory (`~/`) or Desktop; however, you can run the script anywhere.
 
 ```
-wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/master/tools/RaspberryPi/setup.sh
-wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/master/tools/RaspberryPi/config.txt
+wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/yc/sensory-support/tools/RaspberryPi/setup.sh
+wget https://raw.githubusercontent.com/matrix-io/avs-device-sdk/yc/sensory-support/tools/RaspberryPi/config.txt
 ```
 
 Open the file in a editor and use the `Client ID`, `Product ID` and `Client Secret` from the registration steps to fill the file `config.txt`. Check [here](https://www.raspberrypi.org/magpi/edit-text/) If you need help editing the file.
