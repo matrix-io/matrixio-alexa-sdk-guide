@@ -5,8 +5,8 @@ With this image you can be up and running in just 10 minutes. The image has all 
 ### 1. Download and Flash the Image 
 If you need help with this check out [this]( https://www.raspberrypi.org/documentation/installation/installing-images/README.md) guide from Raspberry Pi.
 
-* Image zip file: https://storage.googleapis.com/matrix-creator-testing-images/matrix-alexa-sdk-guide-040318.img.zip
-* Image md5sum file:  https://storage.googleapis.com/matrix-creator-testing-images/matrix-alexa-sdk-guide-040318.img.zip.md5
+* Image zip file: https://storage.googleapis.com/matrix-creator-testing-images/matrix-alexa-sdk-guide-041318.img.zip
+* Image md5sum file:  https://storage.googleapis.com/matrix-creator-testing-images/matrix-alexa-sdk-guide-041318.img.zip.md5
 
 
 ### 2. Fill Authentication Info and Get Auth Token
